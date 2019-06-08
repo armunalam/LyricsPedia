@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Template</title>
+</head>
+<style>
+    nav ul ul {
+        display: none;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+    }
+    div.nav-header {
+        border: 1px solid black;
+        width: 84.2805em;
+        margin-top: -8px;
+        margin-left: -8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        color: white;
+        background: #111929;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        height: 40px;
+    }
+    div.element {
+        padding 0px;
+        margin-left: 50px;
+        width: auto;
+    }
+    nav ul li {
+        float: left;
+    }
+
+        nav ul li:hover {
+            background: #4b545f;
+            background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+            background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+        }
+
+            nav ul li:hover a {
+                color: #fff;
+            }
+
+        nav ul li a {
+            display: block;
+            padding: 25px 40px;
+            color: #757575;
+            text-decoration: none;
+        }
+    nav ul ul {
+        background: #5f6975;
+        border-radius: 0px;
+        padding: 0;
+        position: absolute;
+        top: 100%;
+    }
+
+        nav ul ul li {
+            float: none;
+            border-top: 1px solid #6b727c;
+            border-bottom: 1px solid #575f6a;
+            position: relative;
+        }
+
+            nav ul ul li a {
+                padding: 15px 40px;
+                color: #fff;
+            }
+
+                nav ul ul li a:hover {
+                    background: #4b545f;
+                }
+        nav ul ul ul {
+            position: absolute;
+            left: 100%;
+            top: 0;
+        }
+</style>
+<body>
+    <nav>
+                <ul>
+                    <li>Popular Lyrics</li>
+                    <ul>
+                        <li>Dragon Soul</li>
+                        <li>My Love</li>
+                        <li>What's My Name</li>
+                        <li>Summertime Sadness</li>
+                        <li>Beauty and a Beat</li>
+                    </ul>
+                    <li>Artists</li>
+                    <ul>
+                        <li>Selena Gomez</li>
+                        <li>Avril Lavigne</li>
+                        <li>Taylor Swift</li>
+                        <li>Justin Bieber</li>
+                        <li>Pitbull</li>
+                    </ul>
+                    <li>Special</li>
+                    <li>Lists</li>
+                </ul>
+    </nav>
+</body>
+</html>

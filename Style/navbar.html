@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Style\Style.css" />
+	<style>
+		div.nav-header {
+			border: 1px solid black;
+			width: 84.2805em;
+			margin-top: -8px;
+			margin-left:-8px;
+			padding-left: 8px;
+			padding-right: 8px;
+			color: white;
+			background: #111929;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			height:40px;
+		}
+		div.nav-header_2 {
+			background: #111929;
+			line-height: 30px;
+			overflow: hidden;
+			padding: 0px;
+			margin: 0px;
+			font-size: 18px;
+			float:left;
+			margin: 0px;
+		}
+		div.nav-header_3 {
+			float: left;
+			padding: 5px;
+			padding-left: 20px;
+			padding-right: 20px;
+			width: auto;
+			font-size: 18px;
+		}
+		div.nav-header_2:hover div.nav-header_3 {
+			background: #1D2533;
+		}
+		div.element {
+			padding 0px;
+			margin-left: 50px;
+			width: auto;
+		}
+		input.searchbox {
+			margin-top:5px;
+			margin-bottom:-10px;
+			-webkit-border-radius: 13px;
+			   -moz-border-radius: 13px;
+			width: 200px;
+			height: 30px;
+			border: 1px solid black;
+			padding-left: 10px;
+		}
+		input.searchbox:focus {
+			-webkit-border-radius: 13px;
+			   -moz-border-radius: 13px;
+			-webkit-box-shadow: #4091ed 0px 0px 10px;
+			box-shadow: #4091ed 0px 0px 10px;
+			border: 1px solid black;
+		}
+		ul.nav {
+			list-style-type: none;
+			margin: 0px;
+			margin-top: 41.45px;
+			margin-bottom: 0px;
+			margin-left:-10px;
+			padding: 0px;
+			margin-left: 0px;
+			color: white;
+			display: block;
+			width: auto;
+		}
+		div.nav-header_2 ul.nav {
+			height: 0px;
+			-webkit-transition: height 1s ease;
+			   -moz-transition: height 1s ease;
+				 -o-transition: height 1s ease;
+				-ms-transition: height 1s ease;
+					transition: height 1s ease;
+		}
+		div.nav-header_2:hover ul.nav {
+			height: auto;
+		}
+ 
+		a.nav {
+			margin-left: 0px;
+			text-decoration: none;
+			color: white;
+			display: block;
+		}
+ 
+		/*li Styles*/
+		li.nav {
+			padding-left: 20px;
+			padding-bottom: 5px;
+			padding-right: 20px;
+		}
+ 
+		li.nav:hover {
+			background: #1B253A;
+		}
+		a.a:link	 {color:white; text-decoration:none;}
+		a.a:visited  {color:white; text-decoration:none;}
+		a.a:hover	 {color:white; text-decoration:none;}
+		a.a:active	 {color:white; text-decoration:none;}
+	</style>
+</head>
+<body style="background: none;">
+	<nav>
+		<div class="nav-header">
+			<div class="element">
+				<div class="nav-header_2">
+					<div class="nav-header_3">Popular Lyrics</div>
+					<ul class="nav" style="z-index:-1000;">
+						<a href="Dragon Soul.html" target="_top" class="a"><li class="nav">Dragon Soul</li></a>
+						<a href="My Love.html" target="_top" class="a"><li class="nav">My Love</li></a>
+						<a href="What's My Name.html" target="_top" class="a"><li class="nav">What's My Name</li></a>
+						<a href="Summertime Sadness.html" target="_top" class="a"><li class="nav">Summertime Sadness</li></a>
+						<a href="Beauty and a Beat.html" target="_top" class="a"><li class="nav">Beauty and a Beat</li></a>
+					</ul>
+				</div>
+				<div class="nav-header_2">
+					<div class="nav-header_3">Special</div>
+					<ul class="nav">
+						<li class="nav">a</li>
+						<li class="nav">b</li>
+					</ul>
+				</div>
+				<div class="nav-header_2">
+					<div class="nav-header_3 nav">Artists</div>
+					<ul class="nav">
+						<li class="nav">a</li>
+						<li class="nav">b</li>
+					</ul>
+				</div>
+				<div class="nav-header_2">
+					<div class="nav-header_3 nav">Lists</div>
+				</div>
+				<div class="nav-header_2">
+					<div class="nav-header_3 nav">Help</div>
+				</div>
+				<div style="display: inline; margin: 0px; margin-left: 200px; padding:5px;">
+					<input class="searchbox" type="search" name="searchbox" placeholder="Search" />
+				<div>
+			</div>
+		</div>
+	</nav>
+</body>
+</html>

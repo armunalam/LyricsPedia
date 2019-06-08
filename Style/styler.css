@@ -1,0 +1,128 @@
+/* This is the CSS file for the lyrics in this directory */
+
+/*************************************/
+/* Use these classes where necessary */
+/*************************************/
+.center {
+color: black;
+font-size: 16px;
+font-family:'Open Sans', 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif;
+text-align: center;
+}
+.body {
+color: black;
+font-size: 16px;
+font-family:'Open Sans', 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif;
+position:absolute;
+width:20em;
+}
+
+/* Some modified HTML tags */
+p {
+color: black;
+font-size: 16px;
+font-family:'Open Sans', 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+h1 {
+color: black;
+font-family:'Open Sans', 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif;
+text-align: center;
+}
+body {
+background-image:url('Image\Siamese_Robots.jpg');
+font-size: 14px;
+font-family:'Open Sans', 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+
+/***************************************/
+/* Design for the boxes for the lyrics */
+/***************************************/
+/*This box is used for a brief comment for the song*/
+.portal_section {
+margin: auto;
+max-width: 60em;
+-moz-box-shadow: 0.1em 0.1em 0.5em rgba( 192, 192, 192, 0.75 );
+-webkit-box-shadow: 0.1em 0.1em 0.5em rgba( 192, 192, 192, 0.75 );
+box-shadow: 0.1em 0.1em 0.5em rgba( 192, 192, 192, 0.75 );
+-moz-border-radius: 1em;
+-webkit-border-radius: 1em;
+border-radius: 1em;
+border: 1px solid #a7d7f9;
+margin-bottom: 1em;
+padding: 0.5em 1em 1em;
+color: black;
+background-color: white;
+font-size: 16px;
+padding: 20px;
+text-align: left;
+font-family: 'Open Sans', 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif;
+}
+/*This box is used for the heading or the name of the lyrics*/
+.head {
+border: 1px solid;
+margin-bottom: 5px;
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+width: 75%; background: #733; color: #DDD; font-size: 16px;
+padding: 20px;
+text-align: center;
+font-size: 20px;
+font-family: 'Open Sans', 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif;
+font-weight: 300;
+margin-left: 10%;
+margin-right: 10%;
+line-height: 160%;
+}
+/*This box is where the lyrics should be placed*/
+.box {
+border: 1px solid #fff;
+margin-bottom: 5px;
+box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.3);
+width: 77%;
+background: #fff;
+color: #000;
+font-size: 14px;
+spadding: 5px;
+padding-left: 10px;
+padding-right: 10px;
+text-align: center;
+font-family: 'Open Sans', 'Segoe UI Light', 'Segoe UI', Arial, Helvetica, sans-serif;
+font-weight: 300;
+margin-left: 10%;
+margin-right: 10%;
+line-height: 160%;
+}
+
+/************************************************/
+/* This is used for the information of the song */
+/************************************************/
+#center {
+position:absolute;
+left:12%;
+width: 16em;
+text-align: left;
+}
+#list {
+margin:auto;
+width:20em;
+text-align:left;
+}
+
+/*********/
+/* Links */
+/*********/
+a:link {text-decoration:none;}                        /*   unvisited link    */
+a:visited {text-decoration:none;}                     /*    visited link     */
+a:hover {color:#407ef6; text-decoration:underline;}   /*   mouse over link   */
+a:active {color:#215ed4; text-decoration:underline;}  /*    selected link    */
+
+/**********/
+/* Styler */
+/**********/
+.styler {
+	width:10px;
+}
+.st {
+	width:50px;
+}

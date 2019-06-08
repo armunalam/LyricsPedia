@@ -1,0 +1,170 @@
+
+@font-face
+{
+    font-family: Sansation-Light;
+    src: url(Sansation-Light.ttf);
+}
+
+
+
+body {
+    font-family: 'Segoe UI Light','Segoe UI Web Light','Segoe UI Web Regular','Segoe UI','Segoe UI Symbol','HelveticaNeue-Light','Helvetica Neue',Arial,sans-serif;
+	background-image:url(background.gif);
+}
+div.main {
+    width:1200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+div.body {
+    float:left;
+	margin-left:5px;
+	margin-right:auto;
+	margin-bottom: 10px;
+	width:800px;
+	background:white;
+	padding-top:30px;
+	padding-bottom:50px;
+	-webkit-box-shadow: #4091ed 0px 0px 10px;
+    box-shadow: #4091ed 0px 0px 10px;
+	/*-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;*/
+}
+div#body {
+    margin-left:auto;
+	margin-right:auto;
+	width:608px;
+}
+div.footer {
+    float:left;
+	margin-left:5px;
+	margin-bottom: 10px;
+	width:800px;
+	background:white;
+	padding-top:10px;
+	-webkit-box-shadow: #4091ed 0px 0px 10px;
+    box-shadow: #4091ed 0px 0px 10px;
+	/*-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;*/
+}
+div.header {
+	background-image:url(header.jpg);
+	margin-top:-30px;
+	margin-bottom:20px;
+	-webkit-box-shadow: #020701 0px 0px 10px;
+    box-shadow: #4091ed #020701 0px 0px 10px;
+}
+div.space {
+	float:left;
+	padding:0px;
+	width:800px;
+	margin-left:5px;
+}
+div.logo {
+    margin-left:10px;
+	font-family:Sansation-Light;
+	font-size:50px;
+	padding:5px;
+	float:left;
+}
+div#logo {
+    font-family: 'Segoe UI Light','Segoe UI Web Light','Segoe UI Web Regular','Segoe UI','Segoe UI Symbol','HelveticaNeue-Light','Helvetica Neue',Arial,sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+div.logo_1 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Sansation-Light;
+    font-size: 80px;
+    padding: 5px;
+    width:500px;
+    text-align:center;
+	color:white;
+}
+iframe.margin {
+	margin-bottom: -10px;
+}
+iframe.margin {
+	margin-bottom: -18px;
+}
+a.logo {color: rgb(83, 38, 139); text-decoration:none;}
+a.logo:active {color: rgb(83, 38, 139); text-decoration:none;}
+div.side_bar {
+    width:320px;
+	float:left;
+	position: relative;
+}
+div.side_nav {
+    background: white;
+    /* background: rgb(252, 252, 252); */
+	margin-top:90px;
+	padding-bottom:0px;
+	-webkit-box-shadow: #4091ed 0px 0px 10px;
+    box-shadow: #4091ed 0px 0px 10px;
+	/* -webkit-border-radius: 12px; */
+	/* -moz-border-radius: 12px; */
+}
+div.side_nav_other {
+    background: white;
+	/* background: rgb(252, 252, 252); */
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-bottom:0px;
+	-webkit-box-shadow: #4091ed 0px 0px 10px;
+    box-shadow: #4091ed 0px 0px 10px;
+	/* -webkit-border-radius: 12px; */
+	/* -moz-border-radius: 12px; */
+}
+
+/* Lyrics */
+h1.header {
+    font-family: 'Segoe UI Light','Segoe UI Web Light','Segoe UI Web Regular','Segoe UI','Segoe UI Symbol','HelveticaNeue-Light','Helvetica Neue',Arial,sans-serif;
+	font-variant: small-caps;
+	font-weight: lighter;
+	text-align: center;
+	color: white;
+	background: rgb(29, 45, 129);
+	margin-left: -96.5px;
+	margin-right: -96.5px;
+	padding-bottom: 3px;
+}
+h2.artist {
+    font-family: 'Segoe UI Light','Segoe UI Web Light','Segoe UI Web Regular','Segoe UI','Segoe UI Symbol','HelveticaNeue-Light','Helvetica Neue',Arial,sans-serif;
+	font-weight: lighter;
+	text-align: center;
+	color: white;
+	margin-top: -15px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background: rgb(83, 38, 139);
+	margin-left: -96.5px;
+	margin-right: -96.5px;
+}
+pre.lyrics {
+    font-family: 'Segoe UI Light','Segoe UI Web Light','Segoe UI Web Regular','Segoe UI','Segoe UI Symbol','HelveticaNeue-Light','Helvetica Neue',Arial,sans-serif;
+	text-align: center;
+	/* color: white; */
+	/* background: rgb(37, 129, 29);*/
+	/* margin-left: -96.5px; */
+	/* margin-right: -96.5px; */
+	/* padding-top: 20px; */
+	/* padding-bottom: 20px; */
+}
+a.list:link          {text-decoration:none; color:black}            /*   unvisited link    */
+a.list:visited    {text-decoration:none; color:black}            /*    visited link     */
+a.list:hover        {color:#407ef6; text-decoration:underline;}    /*   mouse over link   */
+a.list:active      {color:#ffa500; text-decoration:underline;}    /*    selected link    */
+
+div.newspaper {
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+}
+li.margin-lifter {
+	margin-top:-15px;
+}
+iframe.navbar {
+	margin-top:-8px; margin-left:-8px; z-index:1000; margin-bottom:-5m;
+}
